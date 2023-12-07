@@ -1,0 +1,67 @@
+[
+    { 
+        "id" : 1,
+        "name":"Cuarto de Libra",
+        "descripcion": "La que nunca puede faltar, una cuarto de libra llena de sabor",
+        "imagen": "/Multimedia/menu/cuarto-de-libra.PNG",
+        "precio": 350,
+        "categoria": "hamburguesas"
+    },
+    { 
+        "id" : 2,
+        "name":"Doble Cuarto de Libra",
+        "descripcion": "Mas carne, mas sabor",
+        "imagen": "/Multimedia/menu/doble-cuarto-de-libra.jpg",
+        "precio": 380,
+        "categoria": "hamburguesas"
+    },
+    { 
+        "id" : 3,
+        "name":"Simple",
+        "descripcion": "Sencilla y exquizita al mismo tiempo",
+        "imagen": "/Multimedia/menu/burger-simple.jpg",
+        "precio": 250,
+        "categoria": "hamburguesas"
+    },
+    { 
+        "id" : 4,
+        "name":"Premium Brioche",
+        "descripcion": "Proba el nuevo y delicioso pan brioche",
+        "imagen": "/Multimedia/menu/premium-brioche.jpg",
+        "precio": 410,
+        "categoria": "hamburguesas"
+    },
+    { 
+        "id" : 5,
+        "name":"Premium Bacon Chesse",
+        "descripcion": "Una explosion de queso con deliciosas tiras de bacon",
+        "imagen": "/Multimedia/menu/premium-bacon-chesse-burger.jpg",
+        "precio": 450,
+        "categoria": "hamburguesas"
+    },
+    { 
+        "id" : 6,
+        "name":"BOOM!! Burger",
+        "descripcion": "Una explosión de sabor",
+        "imagen": "/Multimedia/menu/boom-burguer.jpg",
+        "precio": 500,
+        "categoria": "hamburguesas"
+    },
+    { 
+        "id" : 7,
+        "name":"Papas fritas",
+        "descripcion": "Doradas y crujientes como ninguna",
+        "imagen": "/Multimedia/menu/papas-simples.jpg",
+        "precio": 100,
+        "categoria": "papas"
+    },
+    { 
+        "id" : 8,
+        "name":"Papas con cheddar y bacon",
+        "descripcion": "Una explosión de queso y bacon",
+        "imagen": "/Multimedia/menu/papas-cheddar.jpg",
+        "precio": 145,
+        "categoria": "papas"
+    }
+
+]

@@ -61,3 +61,26 @@
 .text-nav{
   padding-top: 20px;
 }
+.detalle-img{
+  height: 300px;
+  width: 300px;
+}
+.card-detalle{
+  margin-left: 350px;
+  margin-top: 50px;
+  justify-content: center;
+  width: 400px;
+}
+.navbar-expand .navbar-nav{
+  gap: 30px;
+  
+}
+.navbar-expand .navbar-nav a{
+  list-style: none;
+  color: black;
+}
+.carta{
+  padding: 0 !important;
+  margin: 20px;
+  height: 280px;
+}
