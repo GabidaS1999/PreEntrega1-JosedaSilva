@@ -35,17 +35,21 @@
 
 .card {
   padding: 2em;
+  
 }
 
 .read-the-docs {
   color: #888;
 }
 .NavBar{
-  justify-content: center;
   text-align: center;
   font-size: 20px;
   background-color: rgb(199, 138, 7) !important;
+  position: fixed;
+  width: 100%;
+ z-index: 1;
 }
+
 .me-auto{
   list-style: none !important;
   text-decoration: none !important;
@@ -55,21 +59,30 @@
   text-align: center;
   justify-content: center;
   font-size: 20px;
-  color: white;
+  color: black;
   background-color: transparent;
+  border: none;
 }
+.Cart :hover{
+  color: white;
+  border: none;
+}
+
 .text-nav{
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .detalle-img{
   height: 300px;
   width: 300px;
+  
 }
 .card-detalle{
   margin-left: 350px;
-  margin-top: 50px;
+  margin-top: 100px;
   justify-content: center;
   width: 400px;
+  
+
 }
 .navbar-expand .navbar-nav{
   gap: 30px;
@@ -82,5 +95,102 @@
 .carta{
   padding: 0 !important;
   margin: 20px;
-  height: 280px;
+  height: 300px;
+  margin-top: 100px;
+}
+.counter-container{
+  display: flex;
+  margin-left: 100px;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.counter-container button{
+  background-color: black;
+  color: white;
+ 
+}
+.Cart{
+  padding: 0 !important;
+  font-size: 30px;
+}
+.card .boton-agregar{
+  background-color: black;
+  color: white;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 300px;
+  
+}
+.itemCarrito{
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.137);
+  position: relative;
+  top: 100px;
+  
+}
+.itemCarrito img{
+  height: 80px;
+  border-radius: 20px;
+  
+}
+.itemCarrito div{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  gap: 50px;
+}
+.lab-check{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.formulario{
+  top: 80px;
+  position: relative;
+  margin-bottom: 200px;
+}
+.input-check{
+  border-radius: 5px;
+}
+.div-input{
+  margin: 10px;
+}
+.boton-input{
+  background-color: black;
+  color: white;
+}
+.vaciar-carrito{
+  background-color: black;
+  color: white;
+}
+.btn-total{
+  background-color: black;
+  color: white;
+}
+.botones-totales{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.p-precio-total{
+  font-size:30px;
+  margin-top: 100px;
+}
+.portada{
+  width: 100% !important;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+  top: 70px;
 }
